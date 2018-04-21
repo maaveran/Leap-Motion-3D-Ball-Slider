@@ -1,0 +1,1903 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 33: {fileID: 3300000}
+  - 23: {fileID: 2300000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: FlipXInOut_Sync
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -41.997261, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!23 &2300000
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 131770b79eaeb5c45b1f82b5cd7d5c09, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3300000
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Mesh: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94bf6c798df5e2c489d582174519ece0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_text: 466c69705820496e204f7574
+  m_font: {fileID: 0}
+  m_font_data_file: {fileID: 4900000, guid: 3204fe586956e174bb1a026f39925cc5, type: 3}
+  m_font_material: {fileID: 2100000, guid: 131770b79eaeb5c45b1f82b5cd7d5c09, type: 2}
+  m_px_offset: {x: 0, y: 0}
+  m_character_size: .75
+  m_display_axis: 0
+  m_text_anchor: 4
+  m_text_alignment: 0
+  m_line_height: 1
+  m_animate_per: 0
+  m_time_type: 0
+  m_begin_delay: 0
+  m_max_width: 0
+  m_override_font_baseline: 0
+  m_font_baseline_override: 0
+  m_begin_on_start: 0
+  m_on_finish_action: 0
+  m_master_animations:
+  - m_letter_actions:
+    - m_offset_from_last: 0
+      m_action_type: 0
+      m_use_gradient_start: 0
+      m_start_colour:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values:
+        - r: 1
+          g: 1
+          b: 1
+          a: 0
+        m_from:
+          r: 1
+          g: 1
+          b: 1
+          a: 0
+        m_to:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        m_to_to:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+      m_start_vertex_colour:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from:
+          top_left:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          top_right:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          bottom_right:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          bottom_left:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+        m_to:
+          top_left:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          top_right:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          bottom_right:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          bottom_left:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+        m_to_to:
+          top_left:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          top_right:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          bottom_right:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          bottom_left:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+      m_use_gradient_end: 0
+      m_end_colour:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values:
+        - r: 1
+          g: 1
+          b: 1
+          a: 1
+        m_from:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        m_to:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        m_to_to:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+      m_end_vertex_colour:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from:
+          top_left:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          top_right:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          bottom_right:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          bottom_left:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+        m_to:
+          top_left:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          top_right:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          bottom_right:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          bottom_left:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+        m_to_to:
+          top_left:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          top_right:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          bottom_right:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          bottom_left:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+      m_position_axis_ease_data:
+        m_override_default: 0
+        m_x_ease: 0
+        m_y_ease: 0
+        m_z_ease: 0
+      m_start_pos:
+        m_progression: 0
+        m_progression_idx: 0
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values:
+        - {x: 0, y: 0, z: 0}
+        m_from: {x: 0, y: 0, z: 0}
+        m_to: {x: 0, y: 0, z: 0}
+        m_to_to: {x: 0, y: 0, z: 0}
+        m_ease_curve_per_axis: 0
+        m_custom_ease_curve_y:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_custom_ease_curve_z:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_bezier_curve:
+          m_anchor_points: []
+          m_editor_visible: 0
+        m_force_position_override: 0
+      m_end_pos:
+        m_progression: 0
+        m_progression_idx: 0
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values:
+        - {x: 0, y: 0, z: 0}
+        m_from: {x: 0, y: 0, z: 0}
+        m_to: {x: 0, y: 0, z: 0}
+        m_to_to: {x: 0, y: 0, z: 0}
+        m_ease_curve_per_axis: 0
+        m_custom_ease_curve_y:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_custom_ease_curve_z:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_bezier_curve:
+          m_anchor_points: []
+          m_editor_visible: 0
+        m_force_position_override: 0
+      m_rotation_axis_ease_data:
+        m_override_default: 0
+        m_x_ease: 0
+        m_y_ease: 0
+        m_z_ease: 0
+      m_start_euler_rotation:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values:
+        - {x: 0, y: 90, z: 0}
+        m_from: {x: 0, y: 90, z: 0}
+        m_to: {x: 0, y: 0, z: 0}
+        m_to_to: {x: 0, y: 0, z: 0}
+        m_ease_curve_per_axis: 0
+        m_custom_ease_curve_y:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_custom_ease_curve_z:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+      m_end_euler_rotation:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values:
+        - {x: 0, y: 0, z: 0}
+        m_from: {x: 0, y: 0, z: 0}
+        m_to: {x: 0, y: 0, z: 0}
+        m_to_to: {x: 0, y: 0, z: 0}
+        m_ease_curve_per_axis: 0
+        m_custom_ease_curve_y:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_custom_ease_curve_z:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+      m_scale_axis_ease_data:
+        m_override_default: 0
+        m_x_ease: 0
+        m_y_ease: 0
+        m_z_ease: 0
+      m_start_scale:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values:
+        - {x: 1, y: 1, z: 1}
+        m_from: {x: 1, y: 1, z: 1}
+        m_to: {x: 1, y: 1, z: 1}
+        m_to_to: {x: 1, y: 1, z: 1}
+        m_ease_curve_per_axis: 0
+        m_custom_ease_curve_y:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_custom_ease_curve_z:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+      m_end_scale:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values:
+        - {x: 1, y: 1, z: 1}
+        m_from: {x: 1, y: 1, z: 1}
+        m_to: {x: 1, y: 1, z: 1}
+        m_to_to: {x: 1, y: 1, z: 1}
+        m_ease_curve_per_axis: 0
+        m_custom_ease_curve_y:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_custom_ease_curve_z:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+      m_force_same_start_time: 1
+      m_delay_progression:
+        m_progression: 2
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values:
+        - 0
+        - .111111112
+        - .222222224
+        - .333333343
+        - .444444448
+        - .555555582
+        - .666666687
+        - .777777791
+        - .888888896
+        - 1
+        m_from: 0
+        m_to: 1
+        m_to_to: 0
+      m_duration_progression:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values:
+        - .200000003
+        m_from: .200000003
+        m_to: 1
+        m_to_to: 1
+      m_ease_type: 0
+      m_letter_anchor_start: 3
+      m_letter_anchor_end: 4
+      m_letter_anchor_2_way: 0
+      m_letter_anchor: 3
+      m_audio_on_start: {fileID: 0}
+      m_audio_on_start_delay:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: 0
+        m_to: 0
+        m_to_to: 0
+      m_audio_on_start_offset:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: 0
+        m_to: 0
+        m_to_to: 0
+      m_audio_on_start_volume:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: 1
+        m_to: 1
+        m_to_to: 1
+      m_audio_on_start_pitch:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: 1
+        m_to: 1
+        m_to_to: 1
+      m_audio_on_finish: {fileID: 0}
+      m_audio_on_finish_delay:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: 0
+        m_to: 0
+        m_to_to: 0
+      m_audio_on_finish_offset:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: 0
+        m_to: 0
+        m_to_to: 0
+      m_audio_on_finish_volume:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: 1
+        m_to: 1
+        m_to_to: 1
+      m_audio_on_finish_pitch:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: 1
+        m_to: 1
+        m_to_to: 1
+      m_emitter_on_start: {fileID: 0}
+      m_emitter_on_start_per_letter: 1
+      m_emitter_on_start_delay:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: 0
+        m_to: 0
+        m_to_to: 0
+      m_emitter_on_start_duration:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: 0
+        m_to: 0
+        m_to_to: 0
+      m_emitter_on_start_follow_mesh: 0
+      m_emitter_on_start_offset:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: {x: 0, y: 0, z: 0}
+        m_to: {x: 0, y: 0, z: 0}
+        m_to_to: {x: 0, y: 0, z: 0}
+        m_ease_curve_per_axis: 0
+        m_custom_ease_curve_y:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_custom_ease_curve_z:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+      m_emitter_on_finish: {fileID: 0}
+      m_emitter_on_finish_per_letter: 1
+      m_emitter_on_finish_delay:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: 0
+        m_to: 0
+        m_to_to: 0
+      m_emitter_on_finish_duration:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: 0
+        m_to: 0
+        m_to_to: 0
+      m_emitter_on_finish_follow_mesh: 0
+      m_emitter_on_finish_offset:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: {x: 0, y: 0, z: 0}
+        m_to: {x: 0, y: 0, z: 0}
+        m_to_to: {x: 0, y: 0, z: 0}
+        m_ease_curve_per_axis: 0
+        m_custom_ease_curve_y:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_custom_ease_curve_z:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+      m_particle_effects: []
+      m_audio_effects: []
+      m_anchor_offset: {x: 0, y: .5, z: 0}
+      m_anchor_offset_end: {x: 0, y: .5, z: 0}
+    - m_offset_from_last: 1
+      m_action_type: 1
+      m_use_gradient_start: 0
+      m_start_colour:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        m_to:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        m_to_to:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+      m_start_vertex_colour:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from:
+          top_left:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          top_right:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          bottom_right:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          bottom_left:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+        m_to:
+          top_left:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          top_right:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          bottom_right:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          bottom_left:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+        m_to_to:
+          top_left:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          top_right:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          bottom_right:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          bottom_left:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+      m_use_gradient_end: 0
+      m_end_colour:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        m_to:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        m_to_to:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+      m_end_vertex_colour:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from:
+          top_left:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          top_right:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          bottom_right:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          bottom_left:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+        m_to:
+          top_left:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          top_right:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          bottom_right:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          bottom_left:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+        m_to_to:
+          top_left:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          top_right:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          bottom_right:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+          bottom_left:
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+      m_position_axis_ease_data:
+        m_override_default: 0
+        m_x_ease: 0
+        m_y_ease: 0
+        m_z_ease: 0
+      m_start_pos:
+        m_progression: 0
+        m_progression_idx: 0
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: {x: 0, y: 0, z: 0}
+        m_to: {x: 0, y: 0, z: 0}
+        m_to_to: {x: 0, y: 0, z: 0}
+        m_ease_curve_per_axis: 0
+        m_custom_ease_curve_y:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_custom_ease_curve_z:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_bezier_curve:
+          m_anchor_points: []
+          m_editor_visible: 0
+        m_force_position_override: 0
+      m_end_pos:
+        m_progression: 0
+        m_progression_idx: 0
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: {x: 0, y: 0, z: 0}
+        m_to: {x: 0, y: 0, z: 0}
+        m_to_to: {x: 0, y: 0, z: 0}
+        m_ease_curve_per_axis: 0
+        m_custom_ease_curve_y:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_custom_ease_curve_z:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_bezier_curve:
+          m_anchor_points: []
+          m_editor_visible: 0
+        m_force_position_override: 0
+      m_rotation_axis_ease_data:
+        m_override_default: 0
+        m_x_ease: 0
+        m_y_ease: 0
+        m_z_ease: 0
+      m_start_euler_rotation:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: {x: 0, y: 0, z: 0}
+        m_to: {x: 0, y: 0, z: 0}
+        m_to_to: {x: 0, y: 0, z: 0}
+        m_ease_curve_per_axis: 0
+        m_custom_ease_curve_y:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_custom_ease_curve_z:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+      m_end_euler_rotation:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: {x: 0, y: 0, z: 0}
+        m_to: {x: 0, y: 0, z: 0}
+        m_to_to: {x: 0, y: 0, z: 0}
+        m_ease_curve_per_axis: 0
+        m_custom_ease_curve_y:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_custom_ease_curve_z:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+      m_scale_axis_ease_data:
+        m_override_default: 0
+        m_x_ease: 0
+        m_y_ease: 0
+        m_z_ease: 0
+      m_start_scale:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: {x: 1, y: 1, z: 1}
+        m_to: {x: 1, y: 1, z: 1}
+        m_to_to: {x: 1, y: 1, z: 1}
+        m_ease_curve_per_axis: 0
+        m_custom_ease_curve_y:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_custom_ease_curve_z:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+      m_end_scale:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: {x: 1, y: 1, z: 1}
+        m_to: {x: 1, y: 1, z: 1}
+        m_to_to: {x: 1, y: 1, z: 1}
+        m_ease_curve_per_axis: 0
+        m_custom_ease_curve_y:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_custom_ease_curve_z:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+      m_force_same_start_time: 0
+      m_delay_progression:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: 0
+        m_to: 0
+        m_to_to: 0
+      m_duration_progression:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values:
+        - .5
+        m_from: 1
+        m_to: 1
+        m_to_to: 1
+      m_ease_type: 0
+      m_letter_anchor_start: 4
+      m_letter_anchor_end: 4
+      m_letter_anchor_2_way: 0
+      m_letter_anchor: 4
+      m_audio_on_start: {fileID: 0}
+      m_audio_on_start_delay:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: 0
+        m_to: 0
+        m_to_to: 0
+      m_audio_on_start_offset:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: 0
+        m_to: 0
+        m_to_to: 0
+      m_audio_on_start_volume:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: 1
+        m_to: 1
+        m_to_to: 1
+      m_audio_on_start_pitch:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: 1
+        m_to: 1
+        m_to_to: 1
+      m_audio_on_finish: {fileID: 0}
+      m_audio_on_finish_delay:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: 0
+        m_to: 0
+        m_to_to: 0
+      m_audio_on_finish_offset:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: 0
+        m_to: 0
+        m_to_to: 0
+      m_audio_on_finish_volume:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: 1
+        m_to: 1
+        m_to_to: 1
+      m_audio_on_finish_pitch:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: 1
+        m_to: 1
+        m_to_to: 1
+      m_emitter_on_start: {fileID: 0}
+      m_emitter_on_start_per_letter: 1
+      m_emitter_on_start_delay:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: 0
+        m_to: 0
+        m_to_to: 0
+      m_emitter_on_start_duration:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: 0
+        m_to: 0
+        m_to_to: 0
+      m_emitter_on_start_follow_mesh: 0
+      m_emitter_on_start_offset:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: {x: 0, y: 0, z: 0}
+        m_to: {x: 0, y: 0, z: 0}
+        m_to_to: {x: 0, y: 0, z: 0}
+        m_ease_curve_per_axis: 0
+        m_custom_ease_curve_y:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_custom_ease_curve_z:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+      m_emitter_on_finish: {fileID: 0}
+      m_emitter_on_finish_per_letter: 1
+      m_emitter_on_finish_delay:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: 0
+        m_to: 0
+        m_to_to: 0
+      m_emitter_on_finish_duration:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: 0
+        m_to: 0
+        m_to_to: 0
+      m_emitter_on_finish_follow_mesh: 0
+      m_emitter_on_finish_offset:
+        m_progression: 0
+        m_progression_idx: -1
+        m_ease_type: 0
+        m_is_offset_from_last: 0
+        m_to_to_bool: 0
+        m_unique_randoms: 0
+        m_animate_per: 0
+        m_override_animate_per_option: 0
+        m_custom_ease_curve:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_values: []
+        m_from: {x: 0, y: 0, z: 0}
+        m_to: {x: 0, y: 0, z: 0}
+        m_to_to: {x: 0, y: 0, z: 0}
+        m_ease_curve_per_axis: 0
+        m_custom_ease_curve_y:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+        m_custom_ease_curve_z:
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+      m_particle_effects: []
+      m_audio_effects: []
+      m_anchor_offset: {x: .5, y: .5, z: 0}
+      m_anchor_offset_end: {x: .5, y: .5, z: 0}
+    m_loop_cycles:
+    - m_start_action_idx: 0
+      m_end_action_idx: 1
+      m_number_of_loops: 1
+      m_loop_type: 1
+      m_delay_first_only: 0
+    m_letters_to_animate_option: 0
+    m_letters_to_animate: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
+    m_letters_to_animate_custom_idx: 1
+  m_text_datas:
+  - m_text_line_width: 18.7500019
+    m_text_line_height: 2.4000001
+    m_total_text_width: 18.7500019
+    m_total_text_height: 2.4000001
+    m_line_height_offset: 0
+    m_y_max: -.675000012
+  m_number_of_words: 3
+  m_number_of_lines: 1
+  m_font_baseline: 0
+  m_letters:
+  - m_character: 46
+    m_flipped: 0
+    m_offset_width: 1.6500001
+    m_width: 1.57500005
+    m_height: -2.25
+    m_base_vertices:
+    - {x: 1.57500005, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: -2.25, z: 0}
+    - {x: 1.57500005, y: -2.25, z: 0}
+    m_base_offset: {x: -9.37500095, y: 1.125, z: 0}
+    m_text_anchoring_y_offset: 0
+    m_mesh: {fileID: 0}
+    m_x_offset: 0
+    m_y_offset: -.75
+    m_base_offsets_setup: 1
+    m_progression_variables:
+      m_letter_value: 0
+      m_word_value: 0
+      m_line_value: 0
+    m_effect_manager_handle: {fileID: 11400000}
+    m_anim_state_vars:
+      m_active: 0
+      m_waiting_to_sync: 0
+      m_started_action: 0
+      m_break_delay: 0
+      m_timer_offset: 0
+      m_action_index: 0
+      m_reverse: 0
+      m_action_index_progress: 0
+      m_prev_action_index: 0
+      m_linear_progress: 0
+      m_action_progress: 0
+      m_active_loop_cycles: []
+  - m_character: 6c
+    m_flipped: 0
+    m_offset_width: 1.57500005
+    m_width: 1.57500005
+    m_height: -2.25
+    m_base_vertices:
+    - {x: 1.57500005, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: -2.25, z: 0}
+    - {x: 1.57500005, y: -2.25, z: 0}
+    m_base_offset: {x: -7.72500086, y: 1.125, z: 0}
+    m_text_anchoring_y_offset: 0
+    m_mesh: {fileID: 0}
+    m_x_offset: 0
+    m_y_offset: -.75
+    m_base_offsets_setup: 1
+    m_progression_variables:
+      m_letter_value: 1
+      m_word_value: 0
+      m_line_value: 0
+    m_effect_manager_handle: {fileID: 11400000}
+    m_anim_state_vars:
+      m_active: 0
+      m_waiting_to_sync: 0
+      m_started_action: 0
+      m_break_delay: 0
+      m_timer_offset: 0
+      m_action_index: 0
+      m_reverse: 0
+      m_action_index_progress: 0
+      m_prev_action_index: 0
+      m_linear_progress: 0
+      m_action_progress: 0
+      m_active_loop_cycles: []
+  - m_character: 69
+    m_flipped: 0
+    m_offset_width: 1.125
+    m_width: 1.125
+    m_height: -2.25
+    m_base_vertices:
+    - {x: 1.125, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: -2.25, z: 0}
+    - {x: 1.125, y: -2.25, z: 0}
+    m_base_offset: {x: -6.15000057, y: 1.125, z: 0}
+    m_text_anchoring_y_offset: 0
+    m_mesh: {fileID: 0}
+    m_x_offset: 0
+    m_y_offset: -.75
+    m_base_offsets_setup: 1
+    m_progression_variables:
+      m_letter_value: 2
+      m_word_value: 0
+      m_line_value: 0
+    m_effect_manager_handle: {fileID: 11400000}
+    m_anim_state_vars:
+      m_active: 0
+      m_waiting_to_sync: 0
+      m_started_action: 0
+      m_break_delay: 0
+      m_timer_offset: 0
+      m_action_index: 0
+      m_reverse: 0
+      m_action_index_progress: 0
+      m_prev_action_index: 0
+      m_linear_progress: 0
+      m_action_progress: 0
+      m_active_loop_cycles: []
+  - m_character: 70
+    m_flipped: 0
+    m_offset_width: 1.95000005
+    m_width: 1.95000005
+    m_height: -2.32500005
+    m_base_vertices:
+    - {x: 1.95000005, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: -2.32500005, z: 0}
+    - {x: 1.95000005, y: -2.32500005, z: 0}
+    m_base_offset: {x: -5.02500057, y: 1.20000005, z: 0}
+    m_text_anchoring_y_offset: 0
+    m_mesh: {fileID: 0}
+    m_x_offset: 0
+    m_y_offset: -.675000012
+    m_base_offsets_setup: 1
+    m_progression_variables:
+      m_letter_value: 3
+      m_word_value: 0
+      m_line_value: 0
+    m_effect_manager_handle: {fileID: 11400000}
+    m_anim_state_vars:
+      m_active: 0
+      m_waiting_to_sync: 0
+      m_started_action: 0
+      m_break_delay: 0
+      m_timer_offset: 0
+      m_action_index: 0
+      m_reverse: 0
+      m_action_index_progress: 0
+      m_prev_action_index: 0
+      m_linear_progress: 0
+      m_action_progress: 0
+      m_active_loop_cycles: []
+  - m_character: 58
+    m_flipped: 0
+    m_offset_width: 2.17499995
+    m_width: 2.25
+    m_height: -2.25
+    m_base_vertices:
+    - {x: 2.25, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: -2.25, z: 0}
+    - {x: 2.25, y: -2.25, z: 0}
+    m_base_offset: {x: -3.07500076, y: 1.125, z: 0}
+    m_text_anchoring_y_offset: 0
+    m_mesh: {fileID: 0}
+    m_x_offset: 0
+    m_y_offset: -.75
+    m_base_offsets_setup: 1
+    m_progression_variables:
+      m_letter_value: 4
+      m_word_value: 0
+      m_line_value: 0
+    m_effect_manager_handle: {fileID: 11400000}
+    m_anim_state_vars:
+      m_active: 0
+      m_waiting_to_sync: 0
+      m_started_action: 0
+      m_break_delay: 0
+      m_timer_offset: 0
+      m_action_index: 0
+      m_reverse: 0
+      m_action_index_progress: 0
+      m_prev_action_index: 0
+      m_linear_progress: 0
+      m_action_progress: 0
+      m_active_loop_cycles: []
+  - m_character: 49
+    m_flipped: 0
+    m_offset_width: 1.125
+    m_width: 1.125
+    m_height: -2.25
+    m_base_vertices:
+    - {x: 1.125, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: -2.25, z: 0}
+    - {x: 1.125, y: -2.25, z: 0}
+    m_base_offset: {x: -.300000191, y: 1.125, z: 0}
+    m_text_anchoring_y_offset: 0
+    m_mesh: {fileID: 0}
+    m_x_offset: 0
+    m_y_offset: -.75
+    m_base_offsets_setup: 1
+    m_progression_variables:
+      m_letter_value: 5
+      m_word_value: 1
+      m_line_value: 0
+    m_effect_manager_handle: {fileID: 11400000}
+    m_anim_state_vars:
+      m_active: 0
+      m_waiting_to_sync: 0
+      m_started_action: 0
+      m_break_delay: 0
+      m_timer_offset: 0
+      m_action_index: 0
+      m_reverse: 0
+      m_action_index_progress: 0
+      m_prev_action_index: 0
+      m_linear_progress: 0
+      m_action_progress: 0
+      m_active_loop_cycles: []
+  - m_character: 6e
+    m_flipped: 0
+    m_offset_width: 1.95000005
+    m_width: 1.875
+    m_height: -2.32500005
+    m_base_vertices:
+    - {x: 1.875, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: -2.32500005, z: 0}
+    - {x: 1.875, y: -2.32500005, z: 0}
+    m_base_offset: {x: .824999809, y: 1.125, z: 0}
+    m_text_anchoring_y_offset: 0
+    m_mesh: {fileID: 0}
+    m_x_offset: 0
+    m_y_offset: -.75
+    m_base_offsets_setup: 1
+    m_progression_variables:
+      m_letter_value: 6
+      m_word_value: 1
+      m_line_value: 0
+    m_effect_manager_handle: {fileID: 11400000}
+    m_anim_state_vars:
+      m_active: 0
+      m_waiting_to_sync: 0
+      m_started_action: 0
+      m_break_delay: 0
+      m_timer_offset: 0
+      m_action_index: 0
+      m_reverse: 0
+      m_action_index_progress: 0
+      m_prev_action_index: 0
+      m_linear_progress: 0
+      m_action_progress: 0
+      m_active_loop_cycles: []
+  - m_character: 4f
+    m_flipped: 0
+    m_offset_width: 2.0250001
+    m_width: 2.0250001
+    m_height: -2.4000001
+    m_base_vertices:
+    - {x: 2.0250001, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: -2.4000001, z: 0}
+    - {x: 2.0250001, y: -2.4000001, z: 0}
+    m_base_offset: {x: 3.375, y: 1.20000005, z: 0}
+    m_text_anchoring_y_offset: 0
+    m_mesh: {fileID: 0}
+    m_x_offset: 0
+    m_y_offset: -.675000012
+    m_base_offsets_setup: 1
+    m_progression_variables:
+      m_letter_value: 7
+      m_word_value: 2
+      m_line_value: 0
+    m_effect_manager_handle: {fileID: 11400000}
+    m_anim_state_vars:
+      m_active: 0
+      m_waiting_to_sync: 0
+      m_started_action: 0
+      m_break_delay: 0
+      m_timer_offset: 0
+      m_action_index: 0
+      m_reverse: 0
+      m_action_index_progress: 0
+      m_prev_action_index: 0
+      m_linear_progress: 0
+      m_action_progress: 0
+      m_active_loop_cycles: []
+  - m_character: 75
+    m_flipped: 0
+    m_offset_width: 2.10000014
+    m_width: 2.0250001
+    m_height: -2.32500005
+    m_base_vertices:
+    - {x: 2.0250001, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: -2.32500005, z: 0}
+    - {x: 2.0250001, y: -2.32500005, z: 0}
+    m_base_offset: {x: 5.40000057, y: 1.125, z: 0}
+    m_text_anchoring_y_offset: 0
+    m_mesh: {fileID: 0}
+    m_x_offset: 0
+    m_y_offset: -.75
+    m_base_offsets_setup: 1
+    m_progression_variables:
+      m_letter_value: 8
+      m_word_value: 2
+      m_line_value: 0
+    m_effect_manager_handle: {fileID: 11400000}
+    m_anim_state_vars:
+      m_active: 0
+      m_waiting_to_sync: 0
+      m_started_action: 0
+      m_break_delay: 0
+      m_timer_offset: 0
+      m_action_index: 0
+      m_reverse: 0
+      m_action_index_progress: 0
+      m_prev_action_index: 0
+      m_linear_progress: 0
+      m_action_progress: 0
+      m_active_loop_cycles: []
+  - m_character: 74
+    m_flipped: 0
+    m_offset_width: 1.875
+    m_width: 1.875
+    m_height: -2.25
+    m_base_vertices:
+    - {x: 1.875, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: -2.25, z: 0}
+    - {x: 1.875, y: -2.25, z: 0}
+    m_base_offset: {x: 7.50000095, y: 1.125, z: 0}
+    m_text_anchoring_y_offset: 0
+    m_mesh: {fileID: 0}
+    m_x_offset: 0
+    m_y_offset: -.75
+    m_base_offsets_setup: 1
+    m_progression_variables:
+      m_letter_value: 9
+      m_word_value: 2
+      m_line_value: 0
+    m_effect_manager_handle: {fileID: 11400000}
+    m_anim_state_vars:
+      m_active: 0
+      m_waiting_to_sync: 0
+      m_started_action: 0
+      m_break_delay: 0
+      m_timer_offset: 0
+      m_action_index: 0
+      m_reverse: 0
+      m_action_index_progress: 0
+      m_prev_action_index: 0
+      m_linear_progress: 0
+      m_action_progress: 0
+      m_active_loop_cycles: []
+  m_audio_sources: []
+  m_particle_emitters: []
+  m_particle_systems: []
+  m_effect_managers: []
+  m_current_font_data_file_name: 
+  m_current_font_name: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1

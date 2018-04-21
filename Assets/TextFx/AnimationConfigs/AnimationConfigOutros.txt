@@ -1,0 +1,8 @@
+Blink
+Deal
+Drop Up
+Flip X
+Flip Y
+Rotate
+Shot Drop
+Spin X

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{7CF28D24-3A1B-0AAF-4229-586A7615558F}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_0;UNITY_5_0;UNITY_5;UNITY_64;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+     <Compile Include="Assets\MLM Loading Screens Addon\Scripts\Editor\LoadingScreenInspector.cs" />
+     <Compile Include="Assets\MLM Loading Screens Addon\Scripts\Editor\LoadingScreenMenu.cs" />
+     <Compile Include="Assets\Mad Level Manager\Examples\Editor\ExampleGenerator.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\IMadLevelGenerator.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Inspectors\MadAnimColorInspector.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Inspectors\MadAnimInspector.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Inspectors\MadAnimMoveInspector.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Inspectors\MadAnimRotateInspector.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Inspectors\MadAnimScaleInspector.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Inspectors\MadAnimatorInspector.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Inspectors\MadLevelAbstractLayoutInspector.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Inspectors\MadLevelAnimatorInspector.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Inspectors\MadLevelBackgroundInspector.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Inspectors\MadLevelBackgroundLayerInspector.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Inspectors\MadLevelFreeLayoutInspector.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Inspectors\MadLevelGridLayoutInspector.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Inspectors\MadLevelIconInspector.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Inspectors\MadLevelInputControlInspector.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Inspectors\MadLevelPropertyInspector.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Inspectors\MadLevelPropertyTextInspector.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Inspectors\MadLevelSettingsInspector.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\MadLevelConfigurationEditor.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\MadLevelUpdater.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\MadLevelWatcher.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Tools\IMadLevelConfigurationInspectorAddon.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Tools\MadLevelBackgroundTool.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Tools\MadLevelConfigurationInspector.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Tools\MadLevelExtensionEditor.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Tools\MadLevelFreeTool.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Tools\MadLevelGeneratorTool.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Tools\MadLevelGridBulletsTool.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Tools\MadLevelGridTool.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Tools\MadLevelGroupsEditTool.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Tools\MadLevelIconTool.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Tools\MadLevelInitTool.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Tools\MadLevelMenu.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Tools\MadLevelMoveAssetsTool.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Tools\MadLevelProfileBrowser.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Tools\MadLevelProfileTool.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Tools\MadLevelPropertyEmptyTool.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Tools\MadLevelPropertySpriteTool.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Tools\MadLevelPropertyTextTool.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\Tools\TextureAlphaMultiplier.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Editor\TrialInfo.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\Editor\Inspectors\MadAnchorInspector.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\Editor\Inspectors\MadAtlasInspector.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\Editor\Inspectors\MadDragStopDraggableInspector.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\Editor\Inspectors\MadFontInspector.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\Editor\Inspectors\MadFreeDraggableInspector.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\Editor\Inspectors\MadSpriteInspector.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\Editor\Inspectors\MadTextInspector.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\Editor\MadAtlasBrowser.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\Editor\MadAtlasBuilder.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\Editor\MadAtlasConverter.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\Editor\MadAtlasUtil.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\Editor\MadExternalTools.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\Editor\MadFontBuilder.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\Editor\MadInitTool.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\Editor\MadTexturePacker.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\MadCommons\Editor\MadAssets.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\MadCommons\Editor\MadEditorBase.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\MadCommons\Editor\MadGUI.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\MadCommons\Editor\MadInputDialog.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\MadCommons\Editor\MadPath.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\MadCommons\Editor\MadTrialEditor.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\MadCommons\Editor\MadUpdater.cs" />
+     <Compile Include="Assets\Mad Level Manager\Scripts\MadCommons\Editor\MadWWWFormSender.cs" />
+     <Compile Include="Assets\TextFx\Editor\MenuOptionsTextFxNative.cs" />
+     <Compile Include="Assets\TextFx\Editor\MenuOptionsTextFxUGUI.cs" />
+     <Compile Include="Assets\TextFx\Editor\TextEffectsManager.cs" />
+     <Compile Include="Assets\TextFx\Editor\TextFxNative_Inspector.cs" />
+     <Compile Include="Assets\TextFx\Editor\TextFxUGUI_Inspector.cs" />
+     <Compile Include="Assets\TextFx\Editor\TextfxFontChangeListener.cs" />
+     <Compile Include="Assets\TextFx\Legacy Content\Editor\EffectManager_Inspector.cs" />
+     <Compile Include="Assets\TextFx\Legacy Content\Editor\TextEffectsManager.cs" />
+     <Compile Include="Assets\TextFx\Legacy Content\Editor\TextfxFontChangeListener.cs" />
+     <None Include="Assets\Mad Level Manager\Scripts\Mad2D\Resources\Shaders\Font White.shader" />
+     <None Include="Assets\Mad Level Manager\Scripts\Mad2D\Resources\Shaders\Font DB.shader" />
+     <None Include="Assets\TextFx\AnimationConfigs\Outros\Deal.txt" />
+     <None Include="Assets\TextFx\AnimationConfigs\Mains\Dance.txt" />
+     <None Include="Assets\TextFx\AnimationConfigs\Intros\Flung Out.txt" />
+     <None Include="Assets\TextFx\Legacy Content\Demo Scenes\Fonts\Bitmap Fonts\KarmaFuture.txt" />
+     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\TextFx\AnimationConfigs\Outros\Flip X.txt" />
+     <None Include="Assets\TextFx\Legacy Content\Demo Scenes\Fonts\Bitmap Fonts\dirt2death.txt" />
+     <None Include="Assets\TextFx\AnimationConfigs\AnimationConfigMains.txt" />
+     <None Include="Assets\Mad Level Manager\Examples\Example 5 - Unity 5\README.txt" />
+     <None Include="Assets\TextFx\Shader\Text Shader.shader" />
+     <None Include="Assets\Fonts\wide_awake.txt" />
+     <None Include="Assets\TextFx\Legacy Content\Demo Scenes\Fonts\Bitmap Fonts\bring_the_noize.txt" />
+     <None Include="Assets\README 1.txt" />
+     <None Include="Assets\Mad Level Manager\Themes\Theme2\Font\abeezee-glyphs.txt" />
+     <None Include="Assets\TextFx\AnimationConfigs\Intros\Mental House.txt" />
+     <None Include="Assets\TextFx\AnimationConfigs\Intros\Rotate.txt" />
+     <None Include="Assets\Mad Level Manager\Themes\Theme2\Font\abeezee-license.txt" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\TextFx\AnimationConfigs\Mains\Bounce.txt" />
+     <None Include="Assets\Mad Level Manager\Scripts\Mad2D\Resources\Shaders\Font.shader" />
+     <None Include="Assets\Mad Level Manager\Scripts\Mad2D\Resources\Shaders\UnlitTransparentTint.shader" />
+     <None Include="Assets\MLM Loading Screens Addon\Fonts\ChunkFive\ChunkFive.txt" />
+     <None Include="Assets\TextFx\Legacy Content\Demo Scenes\Fonts\Bitmap Fonts\pseudo_saudi.txt" />
+     <None Include="Assets\TextFx\AnimationConfigs\Outros\Shot Drop.txt" />
+     <None Include="Assets\TextFx\Utilities\Boomlagoon\JSON\Readme.txt" />
+     <None Include="Assets\TextFx\AnimationConfigs\Intros\Flip Y.txt" />
+     <None Include="Assets\TextFx\AnimationConfigs\Mains\Spinning.txt" />
+     <None Include="Assets\TextFx\Legacy Content\Demo Scenes\Fonts\Bitmap Fonts\hawaii_killer.txt" />
+     <None Include="Assets\VolumeLight\Read Me\Read Me.txt" />
+     <None Include="Assets\TextFx\Legacy Content\Demo Scenes\Fonts\Bitmap Fonts\brushed.txt" />
+     <None Include="Assets\Mad Level Manager\Scripts\Mad2D\Resources\Shaders\UnlitTransparentTintPre.shader" />
+     <None Include="Assets\prefab\shader\3DText.shader" />
+     <None Include="Assets\TextFx\README.txt" />
+     <None Include="Assets\Mad Level Manager\Examples\Stuff\Fonts\Boogaloo New\SIL OFL Font License Boogaloo.txt" />
+     <None Include="Assets\TextFx\Legacy Content\Demo Scenes\Fonts\Bitmap Fonts\showcard_gothic.txt" />
+     <None Include="Assets\Mad Level Manager\Examples\Stuff\Fonts\Boogaloo\SIL OFL Font License Boogaloo.txt" />
+     <None Include="Assets\Free Props\Info.txt" />
+     <None Include="Assets\Mad Level Manager\Scripts\Mad2D\Resources\Shaders\UnlitTransparentTint DB.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\prefab\shader\3DTextOneSided.shader" />
+     <None Include="Assets\TextFx\AnimationConfigs\AnimationConfigOutros.txt" />
+     <None Include="Assets\readme.txt" />
+     <None Include="Assets\Fonts\black\black.txt" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\MLM Loading Screens Addon\Fonts\ChunkFive\SIL Open Font License.txt" />
+     <None Include="Assets\TextFx\Legacy Content\Demo Scenes\Fonts\Bitmap Fonts\carbon.txt" />
+     <None Include="Assets\TextFx\AnimationConfigs\Intros\Deal.txt" />
+     <None Include="Assets\TextFx\AnimationConfigs\Intros\Wheel Spin.txt" />
+     <None Include="Assets\TextFx\AnimationConfigs\Mains\Shimmer.txt" />
+     <None Include="Assets\Elementals\!Readme.txt" />
+     <None Include="Assets\TextFx\Legacy Content\Demo Scenes\Fonts\Bitmap Fonts\showcard_gothic_drop_shadow.txt" />
+     <None Include="Assets\TextFx\Legacy Content\Demo Scenes\Fonts\Bitmap Fonts\punk.txt" />
+     <None Include="Assets\TextFx\Legacy Content\Demo Scenes\Fonts\Bitmap Fonts\katy_berry.txt" />
+     <None Include="Assets\TextFx\AnimationConfigs\Intros\Spin X.txt" />
+     <None Include="Assets\TextFx\AnimationConfigs\Intros\Epic.txt" />
+     <None Include="Assets\TextFx\AnimationConfigs\Outros\Drop Up.txt" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\TextFx\AnimationConfigs\Outros\Rotate.txt" />
+     <None Include="Assets\TextFx\AnimationConfigs\Intros\Type Writer.txt" />
+     <None Include="Assets\MLM Loading Screens Addon\README.txt" />
+     <None Include="Assets\Mad Level Manager\Scripts\Mad2D\Resources\Shaders\UnlitTransparentTintPre DB.shader" />
+     <None Include="Assets\MLM Loading Screens Addon\Fonts\Titillium\SIL Open Font License.txt" />
+     <None Include="Assets\Mad Level Manager\Examples\Stuff\Fonts\Boogaloo New\boogaloo.txt" />
+     <None Include="Assets\MLM Loading Screens Addon\Fonts\Titillium\Titillium Bitmap Font.txt" />
+     <None Include="Assets\Mad Level Manager\Themes\Theme1\Fonts\font.txt" />
+     <None Include="Assets\Mad Level Manager\Scripts\Mad2D\Resources\Shaders\Font White DB.shader" />
+     <None Include="Assets\TextFx\AnimationConfigs\Intros\Flip X.txt" />
+     <None Include="Assets\TextFx\Legacy Content\Demo Scenes\Fonts\Bitmap Fonts\armalite.txt" />
+     <None Include="Assets\TextFx\AnimationConfigs\Outros\Flip Y.txt" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\TextFx\AnimationConfigs\Outros\Blink.txt" />
+     <None Include="Assets\TextFx\AnimationConfigs\AnimationConfigIntros.txt" />
+     <None Include="Assets\TextFx\AnimationConfigs\Intros\Drop Down.txt" />
+     <None Include="Assets\TextFx\AnimationConfigs\AnimationConfigs2.txt" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\TextFx\AnimationConfigs\Outros\Spin X.txt" />
+     <None Include="Assets\TextFx\AnimationConfigs\Intros\Blink.txt" />
+     <None Include="Assets\TextFx\Legacy Content\Demo Scenes\Fonts\Bitmap Fonts\8bit_limit.txt" />
+     <None Include="Assets\TextFx\Legacy Content\Demo Scenes\Fonts\Bitmap Fonts\wide_awake.txt" />
+     <None Include="Assets\VolumeLight\Shader\AdditiveMask.shader" />
+     <None Include="Assets\SOOMLA Storefronts Pack - Portrait\Dress Up\fonts\LICENSE.txt" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>E:/unity/project kampus/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>E:/unity/project kampus/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="LeapCSharp.NET3.5">
+ <HintPath>E:/unity/project kampus/Assets/Plugins/x86_64/LeapCSharp.NET3.5.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/androidplayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WP8.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/wp8support/UnityEditor.WP8.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Metro.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/metrosupport/UnityEditor.Metro.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.BB10.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/blackberryplayer/UnityEditor.BB10.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/webglsupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/linuxstandalonesupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{CF3787B9-CEBE-8667-26A9-0F235680C250}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-vs.csproj">
+      <Project>{73338020-1B83-2908-1A6A-5A5B9F6BF1F3}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

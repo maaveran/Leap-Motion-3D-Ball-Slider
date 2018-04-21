@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: fac5dfcf41c444142bbf2d5b534cb5c4
+TrueTypeFontImporter:
+  serializedVersion: 2
+  fontSize: 51
+  forceTextureCase: -2
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 0
+  use2xBehaviour: 0
+  fontNames:
+  - Punk
+  customCharacters: 
+  fontRenderingMode: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

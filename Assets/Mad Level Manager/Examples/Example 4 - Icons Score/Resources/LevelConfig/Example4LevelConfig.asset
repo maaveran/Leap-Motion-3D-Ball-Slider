@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ca0aa9835c2f8f4a9b2b5ff51784391, type: 3}
+  m_Name: Example4LevelConfig
+  m_EditorClassIdentifier: 
+  creationDate: 0
+  _active: 0
+  levels:
+  - _sceneObject: {fileID: 102900000, guid: cd97629085dbe5f4c8e7072039057eb3, type: 3}
+    _scenePath: 4173736574732f4d6164204c6576656c204d616e616765722f4578616d706c65732f4578616d706c652034202d2049636f6e732053636f72652f4578616d706c65344c6576656c53656c6563742e756e697479
+    _sceneName: 4578616d706c65344c6576656c53656c656374
+    scene: 
+    parent: {fileID: 11400000}
+    order: 0
+    name: 4c6576656c2053656c656374
+    type: 0
+    arguments: 
+    groupId: 0
+    extensionGUID: 
+    lockedByDefault: 0
+  - _sceneObject: {fileID: 102900000, guid: 0202d9784f74fe9419aabacbb5dce3f7, type: 3}
+    _scenePath: 4173736574732f4d6164204c6576656c204d616e616765722f4578616d706c65732f4578616d706c652034202d2049636f6e732053636f72652f4578616d706c653447616d655363656e652e756e697479
+    _sceneName: 4578616d706c653447616d655363656e65
+    scene: 
+    parent: {fileID: 11400000}
+    order: 10
+    name: 4c6576656c2031
+    type: 1
+    arguments: 
+    groupId: 0
+    extensionGUID: 
+    lockedByDefault: 0
+  - _sceneObject: {fileID: 102900000, guid: 0202d9784f74fe9419aabacbb5dce3f7, type: 3}
+    _scenePath: 4173736574732f4d6164204c6576656c204d616e616765722f4578616d706c65732f4578616d706c652034202d2049636f6e732053636f72652f4578616d706c653447616d655363656e652e756e697479
+    _sceneName: 4578616d706c653447616d655363656e65
+    scene: 
+    parent: {fileID: 11400000}
+    order: 20
+    name: 4c6576656c2032
+    type: 1
+    arguments: 
+    groupId: 0
+    extensionGUID: 
+    lockedByDefault: 1
+  - _sceneObject: {fileID: 102900000, guid: 0202d9784f74fe9419aabacbb5dce3f7, type: 3}
+    _scenePath: 4173736574732f4d6164204c6576656c204d616e616765722f4578616d706c65732f4578616d706c652034202d2049636f6e732053636f72652f4578616d706c653447616d655363656e652e756e697479
+    _sceneName: 4578616d706c653447616d655363656e65
+    scene: 
+    parent: {fileID: 11400000}
+    order: 30
+    name: 4c6576656c2033
+    type: 1
+    arguments: 
+    groupId: 0
+    extensionGUID: 
+    lockedByDefault: 1
+  groups: []
+  extensions: []
+  version: 1
+  flag: 0

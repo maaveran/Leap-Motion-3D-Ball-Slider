@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ca0aa9835c2f8f4a9b2b5ff51784391, type: 3}
+  m_Name: New Configuration 1
+  m_EditorClassIdentifier: 
+  creationDate: 1439193115
+  _active: 1
+  levels:
+  - _sceneObject: {fileID: 102900000, guid: 573396974096b6241ad377be042e37bd, type: 3}
+    _scenePath: Assets/level_config.unity
+    _sceneName: level_config
+    scene: 
+    parent: {fileID: 11400000}
+    order: 0
+    name: menulevel
+    type: 0
+    arguments: 
+    groupId: 0
+    extensionGUID: 59d01ab2-1e07-4764-a8d1-9e06020e68ee
+    lockedByDefault: 0
+  - _sceneObject: {fileID: 102900000, guid: e2c8bdacb28c68e41b14beb129ea8ecd, type: 3}
+    _scenePath: Assets/level1.unity
+    _sceneName: level1
+    scene: 
+    parent: {fileID: 11400000}
+    order: 10
+    name: Level1
+    type: 1
+    arguments: 
+    groupId: 0
+    extensionGUID: 
+    lockedByDefault: 0
+  - _sceneObject: {fileID: 102900000, guid: 3f667d637138c894a80fd323a5249324, type: 3}
+    _scenePath: Assets/level2.unity
+    _sceneName: level2
+    scene: 
+    parent: {fileID: 11400000}
+    order: 20
+    name: level2
+    type: 1
+    arguments: 
+    groupId: 0
+    extensionGUID: 
+    lockedByDefault: 0
+  - _sceneObject: {fileID: 102900000, guid: a19bd5f4678e571409cf420f0ed4a3f5, type: 3}
+    _scenePath: Assets/level3.unity
+    _sceneName: level3
+    scene: 
+    parent: {fileID: 11400000}
+    order: 30
+    name: level3
+    type: 1
+    arguments: 
+    groupId: 0
+    extensionGUID: 
+    lockedByDefault: 0
+  - _sceneObject: {fileID: 102900000, guid: dc7a8c2cea652c64d9ebcd208ce7b633, type: 3}
+    _scenePath: Assets/level4.unity
+    _sceneName: level4
+    scene: 
+    parent: {fileID: 11400000}
+    order: 40
+    name: level4
+    type: 1
+    arguments: 
+    groupId: 0
+    extensionGUID: 
+    lockedByDefault: 0
+  - _sceneObject: {fileID: 102900000, guid: 2bc56f11477d99843b06a2f1307e1f96, type: 3}
+    _scenePath: Assets/level5.unity
+    _sceneName: level5
+    scene: 
+    parent: {fileID: 11400000}
+    order: 50
+    name: level5
+    type: 1
+    arguments: 
+    groupId: 0
+    extensionGUID: 
+    lockedByDefault: 1
+  groups: []
+  extensions:
+  - name: test
+    guid: 59d01ab2-1e07-4764-a8d1-9e06020e68ee
+    scenesBefore:
+    - _sceneObject: {fileID: 102900000, guid: 88f4b7b61c5502842b386d761a857cff, type: 3}
+      _scenePath: Assets/loading scene.unity
+      _sceneName: loading scene
+      scene: 
+    scenesAfter: []
+  version: 1
+  flag: 0

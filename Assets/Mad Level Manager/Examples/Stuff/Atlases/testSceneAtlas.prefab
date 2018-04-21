@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 3
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: testSceneAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf555825b4eb4ec4084fb3eb45509bef, type: 1}
+  m_Name: 
+  atlasTexture: {fileID: 2800000, guid: 523d1c7df7b018a47b71db714a54f850, type: 1}
+  items:
+  - name: white_circle
+    region:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: .25
+      height: .25
+    pixelsWidth: 256
+    pixelsHeight: 256
+    textureGUID: 50352ff232f360343b5d73a99d5bd6bc
+  - name: star
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .251953125
+      width: .125
+      height: .125
+    pixelsWidth: 128
+    pixelsHeight: 128
+    textureGUID: 5f0fdb3a00fa11440bf3cd873bc138d7
+  - name: boogaloo
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .37890625
+      width: 1
+      height: .5
+    pixelsWidth: 1024
+    pixelsHeight: 512
+    textureGUID: 0134d6f8acc90454b8d4a9ddd2417d91
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

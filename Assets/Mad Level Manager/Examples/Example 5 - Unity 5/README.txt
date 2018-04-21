@@ -1,0 +1,1 @@
+This scene has been prepared to work with Unity 5. Please take a note of how it is created. All sprites and text objects are using atlases. Scene created that way should consume exactly 1 (one) draw call. If it consumes more than one, then most probably you somewhere have a sprite that is not using the atlas and it breaks the batching.

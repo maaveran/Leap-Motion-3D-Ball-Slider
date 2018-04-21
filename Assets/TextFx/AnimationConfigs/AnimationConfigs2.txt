@@ -1,0 +1,24 @@
+Intros/Blink
+Intros/Deal
+Intros/Drop Down
+Intros/Epic
+Intros/Flip X
+Intros/Flip Y
+Intros/Flung Out
+Intros/Mental House
+Intros/Rotate
+Intros/Spin X
+Intros/Type Writer
+Intros/Wheel Spin
+Mains/Bounce
+Mains/Dance
+Mains/Shimmer
+Mains/Spinning
+Outros/Blink
+Outros/Deal
+Outros/Drop Up
+Outros/Flip X
+Outros/Flip Y
+Outros/Rotate
+Outros/Shot Drop
+Outros/Spin X

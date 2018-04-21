@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: wall04b
+  m_Shader: {fileID: 9, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 2a681bf3b6783434db82bcad6167594b, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: ca579d8e5d5cfa34497f649a583c86d5, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 3941732a60431e841bc6108f493ac81d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _HeightMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 3941732a60431e841bc6108f493ac81d, type: 3}
+          m_Scale: {x: .5, y: .5}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _mipFilterTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .92699635
+      data:
+        first:
+          name: _Parallax
+        second: .0139552234
+      data:
+        first:
+          name: _distance_start
+        second: 10
+      data:
+        first:
+          name: _distance_transition
+        second: 33.4615402
+      data:
+        first:
+          name: _ExtrudeHeight
+        second: .0500000007
+      data:
+        first:
+          name: _ShadowSmoothing
+        second: 1.94096148
+      data:
+        first:
+          name: _SelfShadowStrength
+        second: .326923072
+      data:
+        first:
+          name: _LightmapShading
+        second: .699999988
+      data:
+        first:
+          name: _Rot
+        second: 0
+      data:
+        first:
+          name: _DIST_STEPS
+        second: 20
+      data:
+        first:
+          name: _WAVELENGTH
+        second: 1
+      data:
+        first:
+          name: _SHADOW_STEPS
+        second: 20
+      data:
+        first:
+          name: _WAVELENGTH_SHADOWS
+        second: 8
+      data:
+        first:
+          name: _ShadeRange
+        second: .0199999996
+      data:
+        first:
+          name: _ShadingStrength
+        second: 0
+      data:
+        first:
+          name: _SHADOW_SMOOTH_STEPS
+        second: 4
+      data:
+        first:
+          name: _RMS
+        second: .0606417693
+      data:
+        first:
+          name: _SidewallTextureOffset
+        second: -1
+      data:
+        first:
+          name: _BINARY_STEPS
+        second: 6
+      data:
+        first:
+          name: _GlossFromBrightness_multiplicator
+        second: .333299994
+      data:
+        first:
+          name: _GlossFromBrightness_exponent
+        second: 8
+      data:
+        first:
+          name: _Volume2TangetTopDist
+        second: .0500000007
+      data:
+        first:
+          name: _Volume2TangetSideDist
+        second: .00999999978
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .611940265, g: .611940265, b: .611940265, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .582089543, g: .582089543, b: .582089543, a: 1}
+      data:
+        first:
+          name: _ReliefTransform
+        second: {r: 1, g: 1, b: 0, a: 0}
+      data:
+        first:
+          name: _SilhouetteUV_border
+        second: {r: 0, g: 1, b: 0, a: 1}
+      data:
+        first:
+          name: _ReflectColor
+        second: {r: 1, g: 1, b: 1, a: .5}
+      data:
+        first:
+          name: _World2VolumeScale
+        second: {r: 1, g: 1, b: 0, a: 0}
+      data:
+        first:
+          name: _World2VolumeDepthMinMax
+        second: {r: 0, g: 1, b: 0, a: 0}
+      data:
+        first:
+          name: _TangentToTexCurvatureScale
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6
